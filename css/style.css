@@ -1,0 +1,244 @@
+        .lettersContainer {
+          margin-left: 150px;
+        }
+
+        body {
+          background: #FBAC18;
+          border: 3px solid #ED4599;
+          font: #FED864;
+          height: 100%;
+          width: 100%;
+          text-align: center;
+          font-size: 25px;
+          font: Sigmar+One;
+          font-family: 'Sigmar One', cursive;
+        }
+
+        .wrapper {
+          width: 100%;
+          margin: auto;
+          color: #D4536E;
+        }
+
+        #getready {
+          border: #CE118C solid 8px;
+        }
+
+        #chores_list {
+          color: #ED4599;
+          display: inline-block;
+          text-align: center;
+          width: 100%;
+          height: 25px;
+          padding-top: 2px;
+          float: right;
+          border: 2px solid #ED4599;
+          font-size: 20px;
+        }
+
+        .chores_images {
+          margin: 20px;
+          width: 150px;
+          height: 150px;
+          border: 4px solid #FF3B77;
+        }
+
+        .floating-grid {
+          margin-left: auto;
+          margin-right: auto;
+          margin: 10px;
+          text-align: center;
+        }
+
+        .floating-box {
+          display: inline-block;
+          border: 4px solid #FF3B77;
+          width: 150px;
+          height: 150px;
+          background-color: #fff;
+          margin: 20px;
+          text-align: middle;
+          padding-top: 50px;
+        }
+
+        #todo_checkbox_brush_teeth {
+          color: #FF3B77;
+          font: 20px #FF3B77;
+        }
+
+        #todo_checkbox_get_dressed {
+          color: #FBAC18;
+          border: 3px solid #ED4599;
+          font: 20px #FED864;
+        }
+
+        #todo_checkbox_pick_up_toys {
+          color: #FF3B77;
+          font: 20px #FF3B77;
+        }
+
+        #todo_checkbox_read {
+          color: #FBAC18;
+          border: 3px solid #ED4599;
+          font: 20px #FED864;
+        }
+
+        #todo_checkbox_put_clothes_in_hamper {
+          color: #FF3B77;
+          font: 20px #FF3B77;
+        }
+
+        #todo_checkbox_say_prayers {
+          color: #FBAC18;
+          border: 3px solid #ED4599;
+          font: 20px #FED864;
+        }
+
+        p {
+          color: #FBAC18;
+          background-color: #fff;
+          padding: 10px;
+        }
+
+        h1 {
+          /*border: 3px solid #ED4599;*/
+          font: #FED864;
+          font-size: 30px;
+          background-color: #fff;
+        }
+
+        h2 {
+          background-color: #fff;
+          font-size: 25px;
+          width: 100%;
+          border: 3px solid #ED4599;
+          font: #FED864;
+          border: #99001A solid 23px;
+        }
+
+        .wrapper:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        p {
+          padding: 3px;
+          font-size: 18px;
+          color: #FF3B77;
+          float: center;
+        }
+
+        #alphabet {
+          margin: 25 px auto;
+          padding: 20;
+          max-width: 900px;
+        }
+
+        #alphabet:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        #alphabet li {
+          float: left;
+          margin: 0 30px 30px 0;
+          list-style: none;
+          width: 45px;
+          height: 40px;
+          background-color: #FF3B77;
+          border: 3px solid #ED4599;
+          color: #FED864;
+          cursor: pointer;
+          border-radius: 5px;
+          border: solid 3px #ED4599;
+          font-family: 'Sigmar One', cursive;
+        }
+
+        #clear {
+          margin-right: 150px;
+          width: 100px;
+          height: 50px;
+          background-color: #ED4599;
+          border: 3px solid #ED4599;
+          border: #FED864 3px solid;
+          color: #FFF;
+        }
+
+        #alphabet li:hover {
+          background: #fff;
+          border: solid 2px #99001A; ;
+          color: #FF3B77;
+        }
+
+        #my-word {
+          margin: 0;
+          display: block;
+          padding: 0;
+          display: block;
+        }
+
+        .active {
+          opacity: 0.4;
+          filter: alpha(opacity=40);
+        }
+
+
+        #answer_box {
+          float: center;
+          margin-bottom: 30px;
+          border: solid 3px #FF3B77;
+          color: #FF3B77;
+        }
+
+        #small_answer_box_1, #small_answer_box_2, #small_answer_box_3, #small_answer_box_4, #small_answer_box_5, #small_answer_box_6 {
+          width: 110px;
+          height: 40px;
+          border: solid 3px #FBAC18;
+          font-size: 20px;
+          text-align: center;
+        }
+*/
+
+        .floating-box-click-here{
+          display: inline-block;
+          border: 4px solid #FF3B77;
+          width: 150px;
+          height: 150px;
+          background-color: #fff;
+          margin: 20px;
+          text-align: middle;
+          padding-top: 50px;
+          border: 3px solid #ED4599;
+          font-color: #FED864;
+        }
+
+        #click_me {
+          display: inline-block;
+          border: 4px solid #FFF;
+          width: 150px;
+          height: 150px;
+          background-color: #ED4599;
+          margin: 20px;
+          text-align: middle;
+          padding-top: 15px;
+          border: 3px solid #ED4599;
+          color: #FED864;
+        }
+
+        .directions li {
+          border: 3px solid #ED4599;
+          color: #FED864;
+          font-size: 15px;
+          background-color: #fff;
+          list-style-type: none;
+        }
+
+        #hold {
+          width: 110px;
+          height: 40px;
+          border: solid 2px #ED4599;
+          font-size: 20px;
+        }
+
