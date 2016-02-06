@@ -141,7 +141,7 @@
           clear: both;
         }
 
-        #alphabetList {
+        #alphabet li {
           float: left;
           margin: 0 30px 30px 0;
           list-style: none;
@@ -166,7 +166,7 @@
           color: #FFF;
         }
 
-        #alphabetList:hover {
+        #alphabet li:hover {
           background: #fff;
           border: solid 2px #99001A; ;
           color: #FF3B77;
